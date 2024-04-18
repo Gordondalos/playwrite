@@ -6,7 +6,20 @@
   "scripts": {
     "test": "npx playwright test",
     "report": "npx playwright show-report",
-    "ui": "npx playwright test --ui"
+    "ui": "npx playwright test --ui",
+    "start-one": "npx playwright test page-playwrite-dev.spec.ts",
+    "start-folders": "npx playwright --ui test tests/my-test/",
+    "start-wr": "npx playwright  test --ui tests/my-test/ && npm run report",
+    "write": "npx playwright codegen https://google.com",
+    "start-hidden": "npx playwright test",
+    "start-ui": "npx playwright test --ui",
+    "start-debug": "npx playwright test --debug",
+    "start-headed": "npx playwright test --headed",
+    "start-brausers": "npx playwright test --project webkit --project firefox",
+    "start-test-by-name": "npx playwright test landing login",
+    "show": "npx playwright show-report",
+    "update-pl": "npm install -D @playwright/test@latest",
+    "version": "npx playwright --version"
   },
   "author": "gordondalos@gmail.com",
   "license": "ISC",
