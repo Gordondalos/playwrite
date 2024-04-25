@@ -13,6 +13,7 @@
     "write": "npx playwright codegen https://google.com",
     "start-hidden": "npx playwright test",
     "start-ui": "npx playwright test --ui",
+    "start-ui-stock": "npx playwright test --ui tests/stock/",
     "start-debug": "npx playwright test --debug --ui",
     "start-headed": "npx playwright test --headed",
     "start-brausers": "npx playwright test --project webkit --project firefox",
